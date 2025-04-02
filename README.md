@@ -1,14 +1,10 @@
-# 🌤️ Weather App
-
-A simple weather application built with vanilla JavaScript and OpenWeather API.  
-Displays current weather data for a specific city.
+# Weather App
+A simple weather application built with vanilla JavaScript and OpenWeather API. Displays current weather data for a specific city.
 
 ## Live Demo
-
 🔗 [Click here to try it out](https://verdant-beignet-d833a0.netlify.app/)
 
 ## Tech Stack
-
 - HTML
 - CSS
 - JavaScript (Vanilla)
@@ -16,37 +12,28 @@ Displays current weather data for a specific city.
 - OpenWeather API
 - Hosted on Netlify
 
-## Getting Started Locally
-
+## 📦 Getting Started Locally
 1. Clone the repository:
-
 git clone https://github.com/mikryho97/weather-app-deploy.git
-Install dependencies:
-bash
+
+2. Install dependencies:
 npm install
-Create a .env file in the root directory and add your OpenWeather API key:
 
-env
+3. Create a `.env` file in the root directory and add your OpenWeather API key:
 VITE_WEATHER_API_KEY=your_openweather_api_key
-Run the app:
-bash
+
+4. Run the app:
 npm run dev
-What I Learned
-How to fetch and handle API data
 
-Using .env for secure API key management
+## What I Learned
+- How to fetch and handle API data
+- Using `.env` for secure API key management
+- Building and bundling a project with Vite
+- Deploying to Netlify
+- Debugging real deployment issues and pushing through
 
-Building and bundling a project with Vite
-
-Deploying to Netlify
-
-Debugging real deployment issues and pushing through
-
-To Be Improved
-Custom city search
-
-Translations for weather descriptions
-
-Weather icons and styling
-
-Geolocation support
+## To Be Improved
+- Custom city search
+- Translations for weather descriptions
+- Weather icons and better UI
+- Geolocation support
