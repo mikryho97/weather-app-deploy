@@ -1,0 +1,117 @@
+@import url(.//fonts_cdn.css);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+.container {
+  max-width: 1170px;
+  min-height: 1000px;
+  padding: 0 15px;
+  margin: auto;
+  text-decoration: none;
+  background: -webkit-linear-gradient(0deg, #fb8a61, #f74d72, #d2089a, #7029c9);
+  background: linear-gradient(0deg, #fb8a61, #f74d72, #d2089a, #7029c9);
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 0 30px 0;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.weather-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+#weatherForm {
+  max-width: 400px;
+  padding: 30px 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#cityInput {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+#searchButton,
+#refreshButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#searchButton {
+  background-color: #ff4b1f;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#searchButton:hover {
+  background-color: #ff9068;
+}
+
+#refreshButton {
+  background-color: #4CAF50;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#refreshButton:hover {
+  background-color: #45a049;
+}
+
+.input-weather {
+  text-align: center;
+}
+
+#weatherIcon {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#weatherContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+  padding-top: 30px;
+  color: azure;
+  font-family: 'Raleway';
+  font-size: 2em;
+  font-weight: 200;
+
+}
+
+h2 {
+  height: 30px;
+}
+
+span {
+  font-family: 'Raleway';
+  color: #10ad15e2;
+  transition: 0.4s;
+  border-radius: 10px;
+}

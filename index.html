@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>The weather mini app</h1>
+      </header>
+      <section class="input-weather">
+        <div class="weather-wrap">
+          <img id="weatherIcon" alt="Погодная иконка" style="display: none" />
+          <form id="weatherForm">
+            <input type="text" id="cityInput" placeholder="Type your city" />
+            <button type="submit" id="searchButton">Get Weather</button>
+            <button type="reset" id="refreshButton">Refresh</button>
+          </form>
+        </div>
+        <div id="weatherContainer"></div>
+      </section>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
